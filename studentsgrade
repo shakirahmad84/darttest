@@ -1,0 +1,15 @@
+void main() {
+  var marks = 90;
+
+  if (marks >= 90) {
+    print("Shakir Ahmad's grade: A");
+  } else if (marks >= 80) {
+    print("Shakir Ahmad's grade: B");
+  } else if (marks >= 70) {
+    print("Shakir Ahmad's grade: C");
+  } else if (marks >= 60) {
+    print("Shakir Ahmad's grade: D");
+  } else {
+    print("Shakir Ahmad's grade: F");
+  }
+}
