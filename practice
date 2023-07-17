@@ -53,5 +53,11 @@ void main() {
   var d = 20;
   print(--d);
 
+  //Constant
+  final x = 20;
+  print(x);
+  
+  const y = 10;
+  print(y);
 
 }
