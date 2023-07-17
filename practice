@@ -1,4 +1,4 @@
-void main(){
+void main() {
   var intNumber = 10;
   var doubleNumber = 10.10;
   var myStringSingle = 'This is a Single Quotes Stirng';
@@ -6,6 +6,7 @@ void main(){
   var negative = false;
   bool positive = true;
   var list = ['1,2,3'];
+  var student = {'name': 'Joseph', 'age': 28, 'Branch': 'Computer Science'};
   print(intNumber);
   print(doubleNumber);
   print(myStringSingle);
@@ -13,4 +14,5 @@ void main(){
   print(negative);
   print(positive);
   print(list[0]);
+  print(student['name']);
 }
