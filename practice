@@ -39,4 +39,19 @@ void main() {
   print("x * y = ${x*y}");
   print("x / y = ${x/y}");
   print("x % y = ${x%y}");
+
+  //Unary Operator
+  var a = 20;
+  print(a++);
+  
+  var b = 20;
+  print(++b);
+  
+  var c = 20;
+  print(c--);
+  
+  var d = 20;
+  print(--d);
+
+
 }
