@@ -70,4 +70,11 @@ void main() {
   print(city.isNotEmpty);
   print(city.single);
 
+  //Fixed Length List Growable List
+  const myList = [10, 20, 33, 44, 55];
+  print(myList);
+  // Can't add item to fixed const list
+  myList.add(96);
+  print(myList);
+
 }
