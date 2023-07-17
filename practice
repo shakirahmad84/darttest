@@ -113,4 +113,14 @@ void main() {
   removeList.removeAt(3);
   print(removeList);
 
+  //Dart Set With Add And Add ALL
+  var names = <String>{"Shakir", "Ahmad", "Sabbir", "Nasir"};
+  print(names);
+  
+  names.add("Rezaul");
+  print(names);
+  
+  names.addAll({"Sajjad", "Saiful", "Shimanto"});
+  print(names);
+
 }
