@@ -60,4 +60,14 @@ void main() {
   const y = 10;
   print(y);
 
+  //List properties
+  var city = ['Dhaka', 'Jashore', 'Rajshabi', 'Bogura'];
+  print(city.first);
+  print(city.last);
+  print(city.length);
+  print(city.reversed);
+  print(city.isEmpty);
+  print(city.isNotEmpty);
+  print(city.single);
+
 }
