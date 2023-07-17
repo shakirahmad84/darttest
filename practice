@@ -1,18 +1,33 @@
 void main() {
-  var intNumber = 10;
-  var doubleNumber = 10.10;
+    
+  /************
+   * DATA TYPE
+   ************/
+  
+  // String Example For Single Quotation
   var myStringSingle = 'This is a Single Quotes Stirng';
-  var myStringDouble = "This is a Double quotes Stirng";
-  var negative = false;
-  bool positive = true;
-  var list = ['1,2,3'];
-  var student = {'name': 'Joseph', 'age': 28, 'Branch': 'Computer Science'};
-  print(intNumber);
-  print(doubleNumber);
   print(myStringSingle);
+  // String Example For Double Quotation
+  var myStringDouble = "This is a Double quotes Stirng";
   print(myStringDouble);
+  
+  // Integer Example
+  var intNumber = 10;
+  print(intNumber);
+  var doubleNumber = 10.10;
+  print(doubleNumber);
+
+  // Boolean Example
+  var negative = false;
   print(negative);
+  bool positive = true;
   print(positive);
+  
+  // List Example
+  var list = ['1,2,3'];
   print(list[0]);
+  
+  // Map Example
+  var student = {'name': 'Joseph', 'age': 28, 'Branch': 'Computer Science'};
   print(student['name']);
 }
