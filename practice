@@ -30,4 +30,13 @@ void main() {
   // Map Example
   var student = {'name': 'Joseph', 'age': 28, 'Branch': 'Computer Science'};
   print(student['name']);
+
+  //Arithmetic Operator
+  var x = 20;
+  var y = 10;
+  print("x + y = ${x+y}");
+  print("x - y = ${x-y}");
+  print("x * y = ${x*y}");
+  print("x / y = ${x/y}");
+  print("x % y = ${x%y}");
 }
