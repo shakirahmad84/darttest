@@ -140,6 +140,26 @@ void main() {
   print(names.isNotEmpty);
   print(names.hashCode);
   print(names.single);
+
+  //Dart Map Using Map Literal
+  var student = {
+    'name': 'Shakir',
+    'age': 23,
+    'class': 12,
+  };
+  print(student);
   
+  // Adding Value At RunTime
+  student['course'] = 'B.tech';
+  print(student);
+
+  
+  //Using Map Constructor
+  var student = new Map();
+  student['name'] = 'Shakir';
+  student['age'] = 23;
+  student['class'] = 12;
+  student['branch'] = 'Computer Science';
+  print(student);
 
 }
