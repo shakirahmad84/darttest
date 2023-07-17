@@ -123,4 +123,23 @@ void main() {
   names.addAll({"Sajjad", "Saiful", "Shimanto"});
   print(names);
 
+  //Set Element At and Clear
+  var names = <String>{"Shakir", "Ahmad", "Sabbir", "Nasir"};
+  
+  var x = names.elementAt(3);
+  print(x);
+  
+  names.clear();
+  print(names);
+  
+  //Set Properties
+  print(names.first);
+  print(names.last);
+  print(names.length);
+  print(names.isEmpty);
+  print(names.isNotEmpty);
+  print(names.hashCode);
+  print(names.single);
+  
+
 }
