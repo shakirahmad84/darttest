@@ -180,5 +180,59 @@ void main() {
   student.remove('age');
   student.clear();
   print(student);
+  //If Statement
+  var n = 35;
+  if (n < 40) {
+    print("The number is smaller than 40");
+  }
 
+  //If else Statemet
+  var x = 20;
+  var y = 30;
+  if (x > y) {
+    print("The X is greater than Y");
+  } else {
+    print("The Y is greater than X");
+  }
+
+  //If Else If Statement
+  var marks = 40;
+  if (marks >= 90) {
+    print('Result is A+');
+  } else if (marks < 90 && marks >= 80) {
+    print('Result is A');
+  } else if (marks < 80 && marks >= 70) {
+    print('Result is B');
+  } else if (marks < 70 && marks >= 60) {
+    print('Result is C');
+  } else if (marks < 60 && marks >= 50) {
+    print('Result is C');
+  } else {
+    print('Result is F');
+  }
+
+  //Switch Case Statement
+  int m = 1;
+  switch (m) {
+    case 1:
+      {
+        print('Value is 1');
+      }
+      break;
+    case 2:
+      {
+        print('Value is 2');
+      }
+      break;
+    case 3:
+      {
+        print('Value is 3');
+      }
+      break;
+      defaul:
+      {
+        print('Out of range');
+      }
+      break;
+  }
 }
