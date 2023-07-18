@@ -162,4 +162,23 @@ void main() {
   student['branch'] = 'Computer Science';
   print(student);
 
+  Map person = new Map();
+  person['name']='Shakir';
+  person['age']=37;
+  person['mobile'] = '01783360384';
+  print(person.keys);
+  print(person.values);
+  print(person.length);
+  print(person.isEmpty);
+  print(person.isNotEmpty);
+  
+  //Map Properties
+  Map student = {'name': 'Shakir','age': '37'};
+  print(student);
+  student.addAll({'dept':'Civil', 'email': 'shakirahmad84@gmail.com'});
+  print(student);
+  student.remove('age');
+  student.clear();
+  print(student);
+
 }
