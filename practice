@@ -23,13 +23,17 @@ void main() {
   bool positive = true;
   print(positive);
   
-  // List Example
-  var list = ['1,2,3'];
-  print(list[0]);
-  
-  // Map Example
-  var student = {'name': 'Joseph', 'age': 28, 'Branch': 'Computer Science'};
-  print(student['name']);
+  //Dart List Example
+  var dartList = ['1,2,3'];
+  print(dartList);
+
+  //Dart Set Example
+  var dartSet = <String>{"Shakir", "Ahmad", "Sabbir", "Nasir"};
+  print(dartSet);
+
+  //Dart Map Example
+  var dartMap = {'name': 'Joseph', 'age': 28, 'Branch': 'Computer Science'};
+  print(dartMap['name']);
 
   //Arithmetic Operator
   var x = 20;
