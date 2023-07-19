@@ -235,4 +235,51 @@ void main() {
       }
       break;
   }
+
+//Dart For Loop
+for (int i = 0; i <= 10; i++) {
+  print(i);
+}
+
+//Dart For In Loop Over List
+var list = [10, 20, 30, 40, 50];
+for (var i in list) {
+  print(i);
+}
+
+//Dart For In Loop over map
+var student = [
+  {'name': 'Shakir', 'age': 16},
+  {'name': 'Sabbir', 'age': 26},
+  {'name': 'Nasir', 'age': 36}
+];
+for (var i in student) {
+  var name = i['name'];
+  print(name);
+}
+
+//Dart For In Loop Over Set
+var names = {'James', 'Ricky', 'Shakir', 'Sabbir'};
+for (var i in names) {
+  print(i);
+}
+
+
+//Dart While Loop
+var i = 0;
+while (i < 100) {
+  print(i);
+  i = i + 1;
+}
+
+//Dart Do While Loop
+var i = 0;
+do {
+  print(i);
+  i = i + 1;
+} while (i < 100);
+
+
+
+
 }
