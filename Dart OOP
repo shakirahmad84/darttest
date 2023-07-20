@@ -137,3 +137,14 @@ class Son extends Father {
     print(countryname);
   }
 }
+/****************************
+****** Static Keyword  ****** 
+*****************************/
+class MyClass {
+  static void addTwo() {
+    print(20 + 30);
+  }
+}
+void main() {
+  MyClass.addTwo();
+}
