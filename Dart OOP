@@ -22,8 +22,9 @@ class DartClass {
     print(z);
   }
 }
-
-// this keyword
+/*************************
+****** This keyword ******
+**************************/
 void main() {
   // Class Object
   var obj = new MyClass();
@@ -44,7 +45,10 @@ class MyClass {
   }
 }
 
-//Class In External File
+/***********************************
+****** Class In External File ******
+************************************/
+
 //MyClass.dart
 class MyClass{  
   void addTwo(int a, int b){
@@ -52,8 +56,43 @@ class MyClass{
   }
 }
 // main.dart
-import 'MyClass.dart';
+
+/************************
+****** Inheritance ******
+*************************/
+
+// Father.dart
+class Father {
+  void addTwo() {
+    print(20 + 30);
+  }
+
+  void MultiTwo() {
+    print(20 * 30);
+  }
+
+  void Name() {
+    print("Shakir Ahmad");
+  }
+}
+
+//Son.dart
+import 'Father.dart';
+
+class Son extends Father {
+  //addTwo
+
+  //MultiTwo
+
+  //Name
+}
+
+//main.dart
+import 'Son.dart';
+
 void main() {
-  var obj = new MyClass();
-  obj.addTwo(20, 30);
+  var obj = new Son();
+  obj.addTwo();
+  obj.MultiTwo();
+  obj.Name();
 }
