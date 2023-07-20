@@ -167,3 +167,19 @@ class MyClass {
 void main() {
   new MyClass();
 }
+/***************************************
+****** Pass Data Via Constructors ****** 
+****************************************/
+class MyClass {
+  var name;
+  var age;
+  MyClass(var a, var b) {
+    name = a;
+    age = b;
+  }
+}
+import 'MyClass.dart';
+void main() {
+  var obj = new MyClass('Rupom', '27');
+  print(obj.name);
+}
