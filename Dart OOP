@@ -43,3 +43,17 @@ class MyClass {
     this.my();
   }
 }
+
+//Class In External File
+//MyClass.dart
+class MyClass{  
+  void addTwo(int a, int b){
+    print(a+b);
+  }
+}
+// main.dart
+import 'MyClass.dart';
+void main() {
+  var obj = new MyClass();
+  obj.addTwo(20, 30);
+}
