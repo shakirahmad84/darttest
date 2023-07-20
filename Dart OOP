@@ -1,1 +1,24 @@
+void main() {
+  // Class Object
+  var objOfClass = new DartClass();
+  var name = objOfClass.name;
+  print(name);
 
+  objOfClass.add();
+}
+
+// Define Class
+class DartClass {
+  
+//Class Properties
+// Global Variable
+  var name = 'Shakir';
+
+  void add() {
+    // Local Variable
+    var x = 20;
+    var y = 10;
+    var z = x + y;
+    print(z);
+  }
+}
