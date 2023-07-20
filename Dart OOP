@@ -148,3 +148,22 @@ class MyClass {
 void main() {
   MyClass.addTwo();
 }
+}
+/******************************
+****** Dart Constructors ****** 
+*******************************/
+class MyClass {
+  MyClass() {
+    print("I am Constructor");
+  }
+  // Constructor name should be Class Name
+  // No return Type
+  // No need to Call
+  // Auto Call
+  void name() {
+    print("Shakir Ahmad");
+  }
+}
+void main() {
+  new MyClass();
+}
