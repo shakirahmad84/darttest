@@ -122,3 +122,18 @@ abstract class Father {
     print("Shakir Ahmad");
   }
 }
+
+/***************************
+ ****** Super Keyword ******
+ ***************************/
+import 'Father.dart';
+class Son extends Father {
+  void sum() {
+    super.addTwo();
+    super.MultiTwo();
+    super.Name();
+    super.country;
+    var countryname = super.country;
+    print(countryname);
+  }
+}
