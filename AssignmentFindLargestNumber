@@ -1,0 +1,9 @@
+int findLargestNumber(List<int> numbers) {
+  return numbers.reduce((a, b) => a > b ? a : b);
+}
+
+void main() {
+  List<int> myList = [10, 5, 25, 15, 30, 20];
+  int largestNumber = findLargestNumber(myList);
+  print("The largest number in the list is: $largestNumber");
+}
